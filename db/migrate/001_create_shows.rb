@@ -1,5 +1,4 @@
-class CreateShows < ActiveRecord::Migration[5.2]
-  def change
+class CreateShows < ActiveRecord::Migration
     create_table :shows do |t|
       t.string :name
       t.integer :network
